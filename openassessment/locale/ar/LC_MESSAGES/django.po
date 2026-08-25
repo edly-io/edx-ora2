@@ -776,7 +776,7 @@ msgstr "%(num_points)s نقطة"
 #: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:74
 #: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:53
 msgid "Your peer's response to the prompt above"
-msgstr ""
+msgstr "ردّ زميلك على المطالبة الواردة أعلاه"
 
 #: openassessment/templates/openassessmentblock/leaderboard/oa_leaderboard_waiting.html:18
 msgid ""
@@ -795,7 +795,7 @@ msgstr ""
 msgid ""
 "Your submission has been cancelled. You will receive a grade of zero unless "
 "course staff resets your assessment to allow you to resubmit a response."
-msgstr ""
+msgstr "جرى إلغاء تقديمك. وستحصل على درجة صفر إلّا إذا أعاد طاقم المساق ضبط تقييمك للسماح لك بتقديم ردّ جديد."
 
 #: openassessment/templates/openassessmentblock/message/oa_message_closed.html:8
 msgid ""
@@ -908,7 +908,7 @@ msgid ""
 "\n"
 "                    Assignment submissions will close soon. To receive a grade, first provide a response to the prompt, then complete the steps below the %(start_tag)sYour Response%(end_tag)s field.\n"
 "                "
-msgstr ""
+msgstr "\nسيُغلق باب تقديم الواجب قريبًا. للحصول على درجة، قدّم أولًا ردّك على المطالبة، ثمّ أكمل الخطوات الواردة أسفل حقل %(start_tag)sردّك%(end_tag)s."
 
 #: openassessment/templates/openassessmentblock/message/oa_message_open.html:11
 #, python-format
@@ -916,7 +916,7 @@ msgid ""
 "\n"
 "                    This assignment has several steps. In the first step, you'll provide a response to the prompt. The other steps appear below the %(start_tag)sYour Response%(end_tag)s field.\n"
 "                "
-msgstr ""
+msgstr "\nيتضمّن هذا الواجب عدّة خطوات. في الخطوة الأولى، ستقدّم ردّك على المطالبة. وتظهر الخطوات الأخرى أسفل حقل %(start_tag)sردّك%(end_tag)s."
 
 #: openassessment/templates/openassessmentblock/message/oa_message_unavailable.html:4
 msgid "Instructions Unavailable"
@@ -931,7 +931,7 @@ msgid ""
 "This assignment has several steps. In the first step, you'll provide a "
 "response to the prompt. The other steps appear below the Your Response "
 "field."
-msgstr ""
+msgstr "يتضمّن هذا الواجب عدّة خطوات. في الخطوة الأولى، ستقدّم ردّك على المطالبة. وتظهر الخطوات الأخرى أسفل حقل «ردّك»."
 
 #: openassessment/templates/openassessmentblock/oa_base.html:36
 msgid "Loading"
@@ -964,7 +964,7 @@ msgstr ""
 #: openassessment/templates/openassessmentblock/oa_team_uploaded_files.html:27
 #: openassessment/templates/openassessmentblock/oa_uploaded_file.html:34
 msgid "View the files associated with this submission:"
-msgstr ""
+msgstr "اطّلع على الملفات المرتبطة بهذا التقديم:"
 
 #: openassessment/templates/openassessmentblock/oa_team_uploaded_files.html:31
 msgid "Uploaded by"
@@ -972,14 +972,14 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/oa_uploaded_file.html:16
 msgid "Files that were uploaded by you:"
-msgstr ""
+msgstr "الملفات التي حمّلتها:"
 
 #: openassessment/templates/openassessmentblock/oa_uploaded_file.html:48
 msgid ""
 "Caution: These files were uploaded by another course learner and have not "
 "been verified, screened, approved, reviewed, or endorsed by the site "
 "administrator. If you access the files, you do so at your own risk.)"
-msgstr ""
+msgstr "تنبيه: حُمّلت هذه الملفات بواسطة متعلّم آخر في المساق، ولم يجرِ التحقّق منها أو تدقيقها أو إقرارها أو مراجعتها أو اعتمادها من قِبل مسؤول الموقع. وإذا اخترت الوصول إليها فإنّك تفعل ذلك على مسؤوليتك الخاصّة.)"
 
 #: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:26
 msgid "Assess Peers"
@@ -1013,7 +1013,7 @@ msgid ""
 "\n"
 "                    In Progress (%(review_number)s of %(num_must_grade)s)\n"
 "                "
-msgstr ""
+msgstr "\nقيد المعالجة (%(review_number)s من %(num_must_grade)s)"
 
 #: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:65
 #: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:45
@@ -1027,7 +1027,7 @@ msgstr "قراءة وتقييم الرد التالي لأحد زملائك."
 #: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:38
 #: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:63
 msgid "Associated Files"
-msgstr ""
+msgstr "الملفات المرتبطة"
 
 #: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:91
 #: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:70
@@ -1177,14 +1177,14 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:89
 msgid "Enter your response to the prompt."
-msgstr ""
+msgstr "أدخل ردّك على المطالبة."
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:91
 msgid ""
 "\n"
 "                        You can save your progress and return to complete your response at any time before the due date\n"
 "                      "
-msgstr ""
+msgstr "\nيمكنك حفظ التقدّم الذي أنجزته حتى الآن والعودة لاستكمال ردّك في أي وقت قبل تاريخ الاستحقاق"
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:104
 msgid ""
@@ -1223,17 +1223,17 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:155
 msgid "Your Response "
-msgstr ""
+msgstr "ردّك "
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:159
 #: openassessment/templates/openassessmentblock/response/oa_response.html:228
 msgid "(Required)"
-msgstr ""
+msgstr "(مطلوب)"
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:161
 #: openassessment/templates/openassessmentblock/response/oa_response.html:230
 msgid "(Optional)"
-msgstr ""
+msgstr "(اختياري)"
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:165
 msgid ""
@@ -1248,7 +1248,7 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:180
 msgid "Enter your response to the prompt above."
-msgstr ""
+msgstr "أدخل ردّك على المطالبة الواردة أعلاه."
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:192
 #, python-format
@@ -1276,7 +1276,7 @@ msgstr "حالة تقديمك"
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:226
 msgid "File Uploads "
-msgstr ""
+msgstr "تحميل الملفات "
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:234
 msgid ""
@@ -1288,15 +1288,15 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:242
 msgid "We could not upload files"
-msgstr ""
+msgstr "لم نتمكّن من تحميل الملفات"
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:248
 msgid "We could not delete files"
-msgstr ""
+msgstr "لم نتمكّن من حذف الملفات"
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:255
 msgid "Select one or more files to upload for this submission."
-msgstr ""
+msgstr "اختر ملفًا واحدًا أو أكثر لتحميله مع هذا التقديم."
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:257
 msgid "Select a file to upload for this submission."
@@ -1304,15 +1304,15 @@ msgstr "اختر ملفًا لتحميله مع هذا التقديم"
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:262
 msgid "Supported file types: "
-msgstr ""
+msgstr "أنواع الملفات المدعومة: "
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:266
 msgid "Upload files"
-msgstr ""
+msgstr "تحميل الملفات"
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:268
 msgid "Upload file"
-msgstr ""
+msgstr "تحميل الملف"
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:284
 msgid "You may continue to work on your response until you submit it."
@@ -1418,7 +1418,7 @@ msgstr "ردودك"
 #: openassessment/templates/openassessmentblock/response/oa_response_graded.html:33
 #: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:54
 msgid "Your Uploaded Files"
-msgstr ""
+msgstr "ملفاتك المُحمّلة"
 
 #: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:32
 msgid ""
@@ -1889,7 +1889,7 @@ msgid ""
 "\n"
 "                      In Progress (%(current_progress_num)s of %(training_available_num)s)\n"
 "                  "
-msgstr ""
+msgstr "\nقيد المعالجة (%(current_progress_num)s من %(training_available_num)s)"
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "available August 13th, 2014 (in 5 days and
@@ -1936,7 +1936,7 @@ msgstr "يختلف تقييمك لهذا الردّ عن تقييم موجّه �
 
 #: openassessment/templates/openassessmentblock/student_training/student_training.html:74
 msgid "The response to the prompt above:"
-msgstr ""
+msgstr "الردّ على المطالبة الواردة أعلاه:"
 
 #: openassessment/templates/openassessmentblock/student_training/student_training.html:96
 msgid "Selected Options Agree"
@@ -2056,30 +2056,30 @@ msgstr "زميل"
 
 #: openassessment/xblock/grade_mixin.py:649
 msgid "The grade for this problem is determined by your Staff Grade."
-msgstr ""
+msgstr "تُحدَّد درجة هذه المسألة بناءً على تقييم طاقم المساق."
 
 #: openassessment/xblock/grade_mixin.py:651
 msgid ""
 "The grade for this problem is determined by the median score of your Peer "
 "Assessments."
-msgstr ""
+msgstr "تُحدَّد درجة هذه المسألة بناءً على الوسيط الحسابي لدرجات تقييم الزملاء."
 
 #: openassessment/xblock/grade_mixin.py:654
 msgid "The grade for this problem is determined by your Self Assessment."
-msgstr ""
+msgstr "تُحدَّد درجة هذه المسألة بناءً على تقييمك الذاتي."
 
 #: openassessment/xblock/grade_mixin.py:660
 #, python-brace-format
 msgid ""
 "You have successfully completed this problem and received a "
 "{earned_points}/{total_points}."
-msgstr ""
+msgstr "لقد أكملت هذه المسألة بنجاح وحصلت على {earned_points}/{total_points}."
 
 #: openassessment/xblock/grade_mixin.py:668
 msgid ""
 "You have not yet received all necessary peer reviews to determine your final"
 " grade."
-msgstr ""
+msgstr "لم تحصل بعد على جميع تقييمات الزملاء اللازمة لتحديد درجتك النهائية."
 
 #: openassessment/xblock/peer_assessment_mixin.py:61
 msgid "You must submit a response before you can perform a peer assessment."
@@ -2328,11 +2328,11 @@ msgstr "عذرًا، لم يمكن تقديم هذا الرد."
 
 #: openassessment/xblock/submission_mixin.py:255
 msgid "Files descriptions were not submitted."
-msgstr ""
+msgstr "لم يتم تقديم أوصاف الملفات."
 
 #: openassessment/xblock/submission_mixin.py:292
 msgid "Files metadata could not be saved."
-msgstr ""
+msgstr "لم يتمكّن النظام من حفظ البيانات الوصفية للملفات."
 
 #: openassessment/xblock/submission_mixin.py:415
 msgid "There was an error uploading your file."
@@ -2340,13 +2340,13 @@ msgstr "حدث خطأ أثناء تحميل ملفّك."
 
 #: openassessment/xblock/submission_mixin.py:427
 msgid "Only a single file upload is allowed for this assessment."
-msgstr ""
+msgstr "يُسمح بتحميل ملف واحد فقط لهذا التقييم."
 
 #: openassessment/xblock/submission_mixin.py:438
 msgid ""
 "File upload failed: unsupported file type.Only the supported file types can "
 "be uploaded.If you have questions, please reach out to the course team."
-msgstr ""
+msgstr "فشل تحميل الملف: نوع الملف غير مدعوم. لا يمكن تحميل أنواع الملفات المدعومة فقط. إذا كانت لديك أي أسئلة، يُرجى التواصل مع طاقم المساق."
 
 #: openassessment/xblock/submission_mixin.py:451
 msgid "Error retrieving upload URL."
