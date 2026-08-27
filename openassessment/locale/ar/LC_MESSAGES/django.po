@@ -2062,7 +2062,7 @@ msgstr "تُحدَّد درجة هذه المسألة بناءً على تقيي
 msgid ""
 "The grade for this problem is determined by the median score of your Peer "
 "Assessments."
-msgstr "تُحدَّد درجة هذه المسألة بناءً على الوسيط الحسابي لدرجات تقييم الزملاء."
+msgstr "تُحدَّد درجة هذه المسألة بناءً على الدرجة الوسيطة لتقييمات الزملاء."
 
 #: openassessment/xblock/grade_mixin.py:654
 msgid "The grade for this problem is determined by your Self Assessment."
@@ -2346,7 +2346,7 @@ msgstr "يُسمح بتحميل ملف واحد فقط لهذا التقييم."
 msgid ""
 "File upload failed: unsupported file type.Only the supported file types can "
 "be uploaded.If you have questions, please reach out to the course team."
-msgstr "فشل تحميل الملف: نوع الملف غير مدعوم. لا يمكن تحميل أنواع الملفات المدعومة فقط. إذا كانت لديك أي أسئلة، يُرجى التواصل مع طاقم المساق."
+msgstr "فشل تحميل الملف: نوع الملف غير مدعوم. لا يمكن تحميل سوى أنواع الملفات المدعومة. إذا كانت لديك أي أسئلة، يُرجى التواصل مع طاقم المساق."
 
 #: openassessment/xblock/submission_mixin.py:451
 msgid "Error retrieving upload URL."
